@@ -28,7 +28,6 @@ public class Movie {
 	
 	public Movie() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Movie(int movieId, String movieName, String movieType, String movieLanguage, String movieDuration) {
 		super();
