@@ -12,7 +12,7 @@ public class Movie {
 	
 	@Id
 	@Column(name="movie_id")
-	private int movieid;
+	private int movieId;
 	
 	@Column(name="movie_name")
 	private String movieName;
@@ -30,9 +30,9 @@ public class Movie {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Movie(int movieid, String movieName, String movieType, String movieLanguage, String movieDuration) {
+	public Movie(int movieId, String movieName, String movieType, String movieLanguage, String movieDuration) {
 		super();
-		this.movieid = movieid;
+		this.movieid = movieId;
 		this.movieName = movieName;
 		this.movieType = movieType;
 		this.movieLanguage = movieLanguage;
