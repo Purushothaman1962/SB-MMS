@@ -32,7 +32,7 @@ public class MMSController {
 	}
 	
 	@PutMapping("/PerformUpdate")
-	public String PerformUpdate(@RequestBody Movie mov) {
+	public String performUpdate(@RequestBody Movie mov) {
 		dao.save(mov);
 		return "Updated";
 	}
